@@ -1,0 +1,16 @@
+# Ignore environment variables
+.env
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+coverage/
+
+# Logs
+*.log
+
+# OS / editor junk
+.DS_Store
+.vscode/

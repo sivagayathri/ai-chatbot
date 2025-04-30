@@ -7,6 +7,7 @@ app.use(express.json()); // Ensure JSON body parsing
 app.use(express.urlencoded({ extended: true })); // Handle URL-encoded data
 
 // Webhook endpoint
+
 app.post('/webhook', async (req, res) => {
     console.log('Received Webhook:', req.body);
 
